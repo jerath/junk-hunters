@@ -7,6 +7,10 @@
   background-image: url("../images/garage.jpg");
 }
 
+.padding-menu {
+  padding:10px;
+}
+
 .map-canvas {
         height: 350px;
         background-color: #CCC;
@@ -69,7 +73,6 @@
 }
 
 
-
 .navbar-default .navbar-brand {
     color: #232323;
 }
@@ -87,9 +90,6 @@
   opacity: 0.9;
   color:black;
 }
-
-
-
 
 
 .photo {
@@ -188,7 +188,7 @@ color: white;
 background-color: #030033;
 }
 
-  .navbar-default {
+.navbar-default {
     background-color: #2ca1cc;
 }
 
