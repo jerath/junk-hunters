@@ -16,6 +16,11 @@ task "db:rebirth" do
   exec("rake db:drop; rake db:create; rake db:migrate; rake db:populate")
 end
 
+desc "migrate"
+task "db:migrate" do
+  
+end
+
 desc "Populate"
 task "db:populate" do
   @user = User.create(
